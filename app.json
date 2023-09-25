@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/AnonymousR1025/StringGenBot",
+  "repository": "https://github.com/rowes-star/R_Session_String_Gin_Bot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,12 +35,12 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "26540535"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "25b92d4dcabe742413af736df6765a6c"
     },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
@@ -50,7 +50,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "R7_QX"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
