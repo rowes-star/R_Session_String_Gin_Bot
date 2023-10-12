@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
-
+from env import OWNER_ID
 
 class Data:
     generate_single_button = [InlineKeyboardButton("↯︙ بدء استخراج .", callback_data="generate")]
