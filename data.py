@@ -1,13 +1,13 @@
 from pyrogram.types import InlineKeyboardButton
-
+from env import OWNER_ID
 class Data:
-    generate_single_button = [InlineKeyboardButton("↯︙ بدء استخراج .", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("↯︙ انشاء كود بايروجرام .", callback_data="generate")]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("↯︙المطور .", url="http//t.me/E_I_9"),
+        [InlineKeyboardButton("↯︙المطور .", user_id=OWNER_ID),
         ],
     ]
 
