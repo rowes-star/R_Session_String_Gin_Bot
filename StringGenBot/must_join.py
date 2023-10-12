@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
             try:
                 await msg.reply_photo(photo="https://graph.org/file/a0905ed81cdf253ca104b.jpg", caption=f"↯︙ عـݪـيك اެݪاެشـتراެك فـي قـنـاެة اެݪـبـوت 📻 .\n↯︙يوزر القناة ( {link} ) .",
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("Ch - [RoWeS]", url=f"{link}")]
+                        [InlineKeyboardButton("اضغط هنا للاشتراك💤", url=f"{link}")]
                     ])
                 )
                 await msg.stop_propagation()
