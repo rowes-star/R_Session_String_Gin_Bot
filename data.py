@@ -1,5 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
-from env import OWNER_ID
+
+
 class Data:
     generate_single_button = [InlineKeyboardButton("↯︙ انشاء كود بايروجرام .", callback_data="generate")]
 
@@ -7,14 +8,14 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("↯︙المطور .", user_id=OWNER_ID),
+        [InlineKeyboardButton("↯︙المطور .", url="https://t.me/s5llll"),
         ],
     ]
 
     START = """
-↯︙اهلا بك في بوت انشاء كود جلسة .
+↯︙اهلا بك في بوت انشاء كود بايروجرام .
 
-↯︙ يمكنك انشاء كود بايروجرام وتليثون بسهولة .
+↯︙ يمكنك انشاء كود بايروجرام بسهولة .
 
-↯︙يتم ارسال الكود في الرسائل المحفوظة .
+↯︙يتم ارسال الكود في الرسائل المحفوضة .
     """
